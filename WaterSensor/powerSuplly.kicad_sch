@@ -1064,6 +1064,245 @@
 				)
 			)
 		)
+		(symbol "MCP1501T-33E-CHY:MCP1501T-33E_CHY"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U15"
+				(at 20.32 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "MCP1501T-33E/CHY"
+				(at 20.32 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SOT-23-6_CHY_MCH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "MCP1501T-33E/CHY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "MCP1501T-33E/CHY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT-23-6_CHY_MCH SOT-23-6_CHY_MCH-M SOT-23-6_CHY_MCH-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP1501T-33E_CHY_0_1"
+				(polyline
+					(pts
+						(xy 20.32 -6.35) (xy 30.48 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 5.08) (xy 20.32 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 30.48 -6.35) (xy 30.48 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 30.48 5.08) (xy 20.32 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MCP1501T-33E_CHY_1_1"
+				(pin output line
+					(at 34.29 2.54 180)
+					(length 3.81)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 22.86 -10.16 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 25.4 -10.16 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 0 0)
+					(length 3.81)
+					(name "*SHDN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 27.94 -10.16 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 16.51 2.54 0)
+					(length 3.81)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Regulator_Linear:LM1117MP-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1484,6 +1723,12 @@
 		(uuid "664fe210-e680-4928-a787-1ed0108ca63d")
 	)
 	(junction
+		(at 151.13 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92fdcaaa-74b9-40df-a6fd-1f3cfa4550fd")
+	)
+	(junction
 		(at 153.67 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1494,6 +1739,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aebb60ca-8235-494c-b6a0-18337b3227a9")
+	)
+	(junction
+		(at 127 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3826411-1939-49c1-afc0-ee8536aeb917")
 	)
 	(junction
 		(at 185.42 83.82)
@@ -1526,6 +1777,12 @@
 		(uuid "c1bd48cc-2f0e-465f-a66e-ef2724542454")
 	)
 	(junction
+		(at 133.35 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c90664ad-3fe6-467e-a777-f14a1b7d3533")
+	)
+	(junction
 		(at 152.4 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1555,6 +1812,12 @@
 		(color 0 0 0 0)
 		(uuid "e7877975-9716-458f-8f52-2c4c89b0aef3")
 	)
+	(junction
+		(at 142.24 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6301d63-3c33-4287-8f31-c45a02ba68e4")
+	)
 	(wire
 		(pts
 			(xy 90.17 83.82) (xy 92.71 83.82)
@@ -1564,6 +1827,16 @@
 			(type default)
 		)
 		(uuid "031867e1-e1ea-424b-a344-88150f2d0edb")
+	)
+	(wire
+		(pts
+			(xy 151.13 135.89) (xy 157.48 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "034cf66a-b469-4242-ae2a-64740b86ebec")
 	)
 	(wire
 		(pts
@@ -1624,6 +1897,16 @@
 			(type default)
 		)
 		(uuid "1f728697-d668-4968-b556-501d09c64d44")
+	)
+	(wire
+		(pts
+			(xy 139.7 148.59) (xy 142.24 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2235eb8f-33bc-49b1-ac32-f1f3ab793764")
 	)
 	(wire
 		(pts
@@ -1744,6 +2027,16 @@
 			(type default)
 		)
 		(uuid "49266f5a-10be-4011-adef-2d9b3770c61d")
+	)
+	(wire
+		(pts
+			(xy 142.24 148.59) (xy 144.78 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ba72370-4446-404d-8d79-4e2e80f77ab8")
 	)
 	(wire
 		(pts
@@ -1977,6 +2270,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 137.16) (xy 151.13 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d2ddad6-af45-4e13-a7b6-cee0d25fda61")
+	)
+	(wire
+		(pts
 			(xy 118.11 115.57) (xy 118.11 116.84)
 		)
 		(stroke
@@ -2007,6 +2310,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 135.89) (xy 133.35 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae6383b1-073a-4487-bd1c-d634ab99a50c")
+	)
+	(wire
+		(pts
 			(xy 160.02 91.44) (xy 171.45 91.44)
 		)
 		(stroke
@@ -2014,6 +2327,16 @@
 			(type default)
 		)
 		(uuid "b750ff96-fc63-4564-9914-5ae591718947")
+	)
+	(wire
+		(pts
+			(xy 133.35 135.89) (xy 133.35 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd160f96-b382-4382-9a3d-f3a5d92badf7")
 	)
 	(wire
 		(pts
@@ -2688,6 +3011,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 151.13 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32b64137-978b-48fb-b416-05dde339b4da")
+		(property "Reference" "#PWR060"
+			(at 151.13 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8fc41b1-5703-4a91-bbfe-a035c8b2f100")
+		)
+		(instances
+			(project "WaterSensor"
+				(path "/e99e1170-956e-41bf-993f-1a59b753d35a/6487aa6d-e022-4e44-8dd3-04456d287da3"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 171.45 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3296,6 +3685,140 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 151.13 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62e4cfac-ade9-42a8-9fe7-00f83a6989df")
+		(property "Reference" "C23"
+			(at 153.162 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 152.908 146.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 151.13 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5f2478a-e68e-4931-973d-c68b276a9632")
+		)
+		(pin "2"
+			(uuid "c90cc950-c949-4a85-bcbf-fd4826301873")
+		)
+		(instances
+			(project "WaterSensor"
+				(path "/e99e1170-956e-41bf-993f-1a59b753d35a/6487aa6d-e022-4e44-8dd3-04456d287da3"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 127 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fa8a91e-d8bc-494b-9dc1-c68c059a55a5")
+		(property "Reference" "#PWR058"
+			(at 127 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 127 132.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 127 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8102bf1d-f764-49f1-9ccf-da3e18321b32")
+		)
+		(instances
+			(project "WaterSensor"
+				(path "/e99e1170-956e-41bf-993f-1a59b753d35a/6487aa6d-e022-4e44-8dd3-04456d287da3"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 148.59 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3496,6 +4019,156 @@
 			(project "WaterSensor"
 				(path "/e99e1170-956e-41bf-993f-1a59b753d35a/6487aa6d-e022-4e44-8dd3-04456d287da3"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 127 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ba7f127-e086-4ec4-86a6-3a42c86ffafe")
+		(property "Reference" "C22"
+			(at 120.65 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 119.888 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 127 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8cb915c-180d-4946-bc41-248e5ca75780")
+		)
+		(pin "2"
+			(uuid "11bedfed-f2e2-4d62-b6cd-012acc8233f2")
+		)
+		(instances
+			(project "WaterSensor"
+				(path "/e99e1170-956e-41bf-993f-1a59b753d35a/6487aa6d-e022-4e44-8dd3-04456d287da3"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCP1501T-33E-CHY:MCP1501T-33E_CHY")
+		(at 116.84 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9400327f-81f3-4dfd-8851-c955886f660f")
+		(property "Reference" "U15"
+			(at 141.986 127.508 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MCP1501T-33E/CHY"
+			(at 141.986 130.048 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SOT-23-6_CHY_MCH"
+			(at 116.84 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MCP1501T-33E/CHY"
+			(at 116.84 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9a72d9cf-73fc-4df2-9702-5e663159dc81")
+		)
+		(pin "2"
+			(uuid "d000e955-5b3e-4fae-b2e9-03eb0726415b")
+		)
+		(pin "5"
+			(uuid "440cd9e1-d377-4acb-81e3-1316c7a8db49")
+		)
+		(pin "1"
+			(uuid "dda02b3f-7a3b-478f-961c-7d11819181b1")
+		)
+		(pin "6"
+			(uuid "130199d4-db5d-4474-b3e4-5a817e7fbf95")
+		)
+		(pin "4"
+			(uuid "e5bafb13-5196-43c7-9308-b0c50be23c7a")
+		)
+		(instances
+			(project "WaterSensor"
+				(path "/e99e1170-956e-41bf-993f-1a59b753d35a/6487aa6d-e022-4e44-8dd3-04456d287da3"
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -3842,6 +4515,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 142.24 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acb358ae-6c67-447c-a3f3-2f557d71fd9d")
+		(property "Reference" "#PWR057"
+			(at 142.24 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0b8d67d-28a8-4071-b17e-751fe65dd507")
+		)
+		(instances
+			(project "WaterSensor"
+				(path "/e99e1170-956e-41bf-993f-1a59b753d35a/6487aa6d-e022-4e44-8dd3-04456d287da3"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 152.4 74.93 0)
 		(unit 1)
@@ -3970,6 +4709,71 @@
 			(project "WaterSensor"
 				(path "/e99e1170-956e-41bf-993f-1a59b753d35a/6487aa6d-e022-4e44-8dd3-04456d287da3"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 157.48 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bee43b98-faad-4d35-a142-7bd01bebf063")
+		(property "Reference" "#PWR061"
+			(at 157.48 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VREF+"
+			(at 157.48 132.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 157.48 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "568d141e-00fd-4265-87c8-1b12d1dbb4e4")
+		)
+		(instances
+			(project "WaterSensor"
+				(path "/e99e1170-956e-41bf-993f-1a59b753d35a/6487aa6d-e022-4e44-8dd3-04456d287da3"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -4180,6 +4984,141 @@
 			(project ""
 				(path "/e99e1170-956e-41bf-993f-1a59b753d35a/6487aa6d-e022-4e44-8dd3-04456d287da3"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eae00a79-3837-4d33-87f2-8d975513d6a7")
+		(property "Reference" "#PWR059"
+			(at 127 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cc7a4b8-c388-47db-bfff-5fa7d9fbd683")
+		)
+		(instances
+			(project "WaterSensor"
+				(path "/e99e1170-956e-41bf-993f-1a59b753d35a/6487aa6d-e022-4e44-8dd3-04456d287da3"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 151.13 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f24c3cc0-5cc9-4e33-910c-61d1c65074e0")
+		(property "Reference" "R14"
+			(at 152.4 137.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "50"
+			(at 152.4 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 151.13 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88d7f049-2118-498c-acca-4997a70814a4")
+		)
+		(pin "2"
+			(uuid "66e45a28-8245-4f66-a109-cd346af3e51e")
+		)
+		(instances
+			(project ""
+				(path "/e99e1170-956e-41bf-993f-1a59b753d35a/6487aa6d-e022-4e44-8dd3-04456d287da3"
+					(reference "R14")
 					(unit 1)
 				)
 			)

@@ -1048,7 +1048,7 @@
 		)
 		(uuid "ff6e1ac5-3d08-4661-ae0a-708d1bede224")
 	)
-	(hierarchical_label "DAC_A_IN_GW"
+	(hierarchical_label "GW_DAC_IN_B"
 		(shape input)
 		(at 160.02 90.17 180)
 		(fields_autoplaced yes)
@@ -1061,7 +1061,7 @@
 		)
 		(uuid "836c026f-3c74-472c-88bf-21fedeeeb42f")
 	)
-	(hierarchical_label "DAC_A_IN_FW"
+	(hierarchical_label "FW_DAC_IN_B"
 		(shape input)
 		(at 82.55 90.17 180)
 		(fields_autoplaced yes)

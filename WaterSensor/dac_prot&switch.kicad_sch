@@ -1409,7 +1409,7 @@
 		)
 		(uuid "eef18e56-6fa7-4a4c-a588-51ec6a7eaa0b")
 	)
-	(text "With a LOW Input, NC channel is connected to COM by default\n"
+	(text "With a LOW Input(IN1 or IN2), NC channel is connected to COM by default\n"
 		(exclude_from_sim no)
 		(at 122.174 40.132 0)
 		(effects
@@ -1432,7 +1432,7 @@
 		)
 		(uuid "30fd2a0b-c751-4a9d-9c65-8cb7c1bd2fb0")
 	)
-	(hierarchical_label "DAC_B_IN_FW"
+	(hierarchical_label "FW_DAC_IN_B"
 		(shape output)
 		(at 208.28 97.79 0)
 		(fields_autoplaced yes)
@@ -1445,7 +1445,7 @@
 		)
 		(uuid "36204a68-005c-4052-bef5-7efcf4a897c7")
 	)
-	(hierarchical_label "DAC_B_IN_GW"
+	(hierarchical_label "GW_DAC_IN_B"
 		(shape output)
 		(at 170.18 97.79 0)
 		(fields_autoplaced yes)
@@ -1484,7 +1484,7 @@
 		)
 		(uuid "6bf5a399-7197-4a8b-90c1-133d38aaf38a")
 	)
-	(hierarchical_label "DAC_A_IN_FW"
+	(hierarchical_label "FW_DAC_IN_A"
 		(shape output)
 		(at 170.18 74.93 0)
 		(fields_autoplaced yes)
@@ -1510,7 +1510,7 @@
 		)
 		(uuid "b2b4184e-fe61-409b-9cba-60994a4b63d6")
 	)
-	(hierarchical_label "DAC_A_IN_GW"
+	(hierarchical_label "GW_DAC_IN_A"
 		(shape output)
 		(at 208.28 74.93 0)
 		(fields_autoplaced yes)
